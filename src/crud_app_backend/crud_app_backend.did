@@ -1,3 +1,12 @@
+type Student = record {
+  name: text;
+  marks: vec nat32;
+  max_mark: nat32;
+};
+
 service : {
-    "greet": (text) -> (text) query;
-}
+  get_student: (text) -> (opt Student) query;
+  add_student: (text, vec nat32, nat32) -> ();
+  delete_student: (text) -> ();
+  list_students: () -> (vec Student) query;
+};

@@ -1,5 +1,5 @@
 [workspace]
 members = [
     "src/crud_app_backend"
-]
+, "student_console_app"]
 resolver = "2"
