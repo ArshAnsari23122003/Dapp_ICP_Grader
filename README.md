@@ -1,5 +1,3 @@
-# README.md for https://github.com/ArshAnsari23122003/Dapp_ICP_Grader
-
 # 🎓 Dapp ICP Grader
 
 A fully functional CRUD DApp built on the **Internet Computer (ICP)** using **Rust (backend)** and **React.js (frontend)**. This app stores student data, calculates averages, and assigns grades with a clean, animated UI and dark/light theme support.
